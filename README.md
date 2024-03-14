@@ -5,7 +5,7 @@
 
 This dataset is designed as a comprehensive challenge for machine learning force fields. It focuses on the task of regressing energy and forces from 3D molecular structures. The dataset consists of cumulenes, which due to their electronic structure, exhibit non-local effects. These pose a challenge for conventional machine learning force fields, including both attention-based and message-passing neural networks.
 
-The dataset was published along with the Matrix Function Network paper:
+The dataset was published along with the [Matrix Function Network paper](https://arxiv.org/abs/2310.10434):
 
 > **Equivariant Matrix Function Neural Networks**
 > I Batatia, LL Schaaf, H Chen, G Csányi, C Ortner, FA Faber
@@ -25,7 +25,7 @@ Cumulenes are made up of a chain of double-bonded carbon atoms terminated with t
 
 The training set contains geometry-optimized cumulenes with 3-10 and 13, 14 carbon atoms, which are then rattled and rotated at various angles. The test set contains cumulenes created in a similar fashion with the same number of carbons (in-domain) and cumulenes of unseen length, not present in the dataset (out-domain 11,12 and 15,16). The `xyz` files contain descriptions of the different test sets. 
 
-
+Please see the original [paper](https://arxiv.org/abs/2310.10434) for more details. 
 
 
 ## Usage
